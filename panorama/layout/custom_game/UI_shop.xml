@@ -1,0 +1,107 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/ui_shop.css"/>
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/ui_shop.js"/>
+    </scripts>
+    
+    <Panel hittest="false">
+        <!--Panel id="UIShopBox" class="UIShopBox">
+            <Panel class="UIShopBg"> 
+                <Panel class="UIShop">                   
+                    <Panel class="shopItemPanel" >
+                        <Panel class="itemTopBanner">
+                            <Image  class="shop_item_img" src="file://{images}/custom_game/shop_item/skadi_lg.png" />
+                            <Panel class="itemMsg">
+                                <Label  class="itemName" text="#UIShopButton1" />
+                                <Panel class="itemCostPanel">
+                                    <Panel class="goldIcon"></Panel>
+                                    <Label  class="itemCost" text="60" />
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                        <Label  class="itemDescribe" text="#UIShopButton2" />
+                        <Label class="buyItemButton" text="#Buy" onactivate="JsToLua()"/> 
+                    </Panel>
+                    <Panel class="shopItemPanel2 shopItemPanel" >
+                        <Panel class="itemTopBanner">
+                            <Image id="shop_item2" class="shop_item_img" src="file://{images}/custom_game/shop_item/ethereal_blade_lg.png" />
+                            <Panel class="itemMsg">
+                                <Label  class="itemName" text="#UIShopButton2" />
+                                <Panel class="itemCostPanel">
+                                    <Panel class="goldIcon"></Panel>
+                                    <Label  class="itemCost" text="60" />
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                        <Label  class="itemDescribe" text="#UIShopButton3" />
+                        <Label class="BuyItemButton" text="#Buy" onactivate="JsToLua()"/> 
+                    </Panel>
+                    <Panel class="shopItemPanel3 shopItemPanel" >
+                        <Panel class="itemTopBanner">
+                            <Image id="shop_item3" class="shop_item_img" src="file://{images}/custom_game/shop_item/greater_crit_lg.png" />
+                            <Panel class="itemMsg">
+                                <Label  class="itemName" text="#UIShopButton3" />
+                                <Panel class="itemCostPanel">
+                                    <Panel class="goldIcon"></Panel>
+                                    <Label  class="itemCost" text="60" />
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                        <Label  class="itemDescribe" text="#UIShopButton1" />
+                        <Label class="BuyItemButton" text="#Buy" onactivate="JsToLua()"/> 
+                    </Panel>
+                </Panel>
+                <Panel class="UIShop"> 
+                    <Panel class="shopItemPanel4 shopItemPanel" >
+                        <Panel class="itemTopBanner">
+                            <Image id="shop_item4" class="shop_item_img" src="file://{images}/custom_game/shop_item/skadi_lg.png" />
+                            <Panel class="itemMsg">
+                                <Label  class="itemName" text="#UIShopButton4" />
+                                <Panel class="itemCostPanel">
+                                    <Panel class="goldIcon"></Panel>
+                                    <Label  class="itemCost" text="60" />
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                        <Label  class="itemDescribe" text="#UIShopButton2" />
+                        <Label class="BuyItemButton" text="#Buy" onactivate="JsToLua()"/> 
+                    </Panel>
+                    <Panel class="shopItemPanel5 shopItemPanel" >
+                        <Panel class="itemTopBanner">
+                            <Image id="shop_item5" class="shop_item_img" src="file://{images}/custom_game/shop_item/boots_lg.png" />
+                            <Panel class="itemMsg">
+                                <Label  class="itemName" text="#UIShopButton5" />
+                                <Panel class="itemCostPanel">
+                                    <Panel class="goldIcon"></Panel>
+                                    <Label  class="itemCost" text="60" />
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                        <Label  class="itemDescribe" text="#UIShopButton3" />
+                        <Label class="BuyItemButton" text="#Buy" onactivate="JsToLua()"/> 
+                    </Panel>
+                    <Panel class="shopItemPanel6 shopItemPanel" >
+                        <Panel class="itemTopBanner">
+                            <Image id="shop_item6" class="shop_item_img" src="file://{images}/custom_game/shop_item/ethereal_blade_lg.png" />
+                            <Panel class="itemMsg">
+                                <Label  class="itemName" text="#UIShopButton6" />
+                                <Panel class="itemCostPanel">
+                                    <Panel class="goldIcon"></Panel>
+                                    <Label  class="itemCost" text="60" />
+                                </Panel>
+                            </Panel>
+                        </Panel>
+                        <Label  class="itemDescribe" text="#UIShopButton1" />
+                        <Label class="BuyItemButton" text="#Buy" onactivate="JsToLua()"/> 
+                    </Panel>
+                </Panel>
+                <Panel class="shopButtonBg">
+                    <Label  class="shopButton shopRefresh" text="刷新" /><Label  class="shopButton shopCancel" text="关闭" />
+                </Panel>
+            </Panel>
+        </Panel-->
+    </Panel>
+
+</root>

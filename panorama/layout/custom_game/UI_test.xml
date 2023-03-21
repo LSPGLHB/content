@@ -1,0 +1,37 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/ability_button.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/topmsg.js"/>
+    </scripts>
+
+
+    <Panel class="UIPanelBox">
+        <Panel id="UIPanel" class="UIPanel">
+        
+            <!--Panel class="UIButton1 UIButton" >
+                <Image id="ability1"  class="ability_img" src="file://{images}/custom_game/ability_button/invoker_exort.png" />
+                <Label class="label" text="#UIButton1" />
+                <Label class="LButton" text="Learn" onactivate="JsToLua()"/>
+            </Panel>
+            <Panel class="UIButton2 UIButton" >
+                <Image id="ability2" class="ability_img" src="file://{images}/custom_game/ability_button/invoker_quas.png" />
+                <Label  class="label" text="#UIButton2" />
+                <Label class="LButton" text="Learn" onactivate="LuaToJs()"/>
+            </Panel>
+            <Panel class="UIButton3 UIButton" >
+                <Image id="ability3" class="ability_img" src="file://{images}/custom_game/ability_button/invoker_wex.png" />
+                <Label  class="label" text="#UIButton3" />
+                <Label class="LButton" text="Learn" onactivate="JsToLua()"/>
+            </Panel>
+            <Panel class="UIButton4 UIButton" >
+                <Image id="ability4" class="ability_img" src="file://{images}/custom_game/ability_button/invoker_cold_snap.png" />
+                <Label  class="label" text="#UIButton4" />
+                <Label class="LButton" text="Learn" onactivate="JsToLua()"/>
+            </Panel-->
+           
+        </Panel>
+    </Panel>
+
+</root>

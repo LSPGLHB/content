@@ -1,0 +1,4 @@
+"addon"
+{
+         "UIButton1"                   "无效"
+}

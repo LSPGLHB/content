@@ -1,0 +1,153 @@
+#UIShopBox{
+    width:100%;
+    
+}
+
+.UIShopBox{
+    width:100%;
+    height:610px;
+    margin-top:160px;
+    padding-left:50%;
+    
+   
+}
+.UIShopBg{
+    width: 960px;
+    height:610px;
+    margin-left: -480px;
+    background-color:#111111dd;
+    border: 1px solid #111111;
+   
+    flow-children:down;
+
+}
+
+.UIShop{
+    height: 260px;
+    flow-children:right;
+    padding: 30px 0 0 30px;
+}
+.shop_item_img{
+    width:85px;
+    height:64px;
+}
+
+.shopItemPanel{
+    width:280px;
+    height:250px;
+    background-color:#111111dd;
+    border: 1px solid #000000;
+    margin-right:30px;
+    
+
+    flow-children:down;
+}
+.itemTopBanner{
+    width:100%;
+    height: 84px;
+    background-color:#0e212d;
+    padding:10px 10px;
+    flow-children:right;
+}
+.itemMsg{
+    width:180px;
+    height: 84px;
+    flow-children:down;
+}
+.itemName{
+    width:160px;
+    padding: 5px 10px 5px;
+    height: 30px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 23px;
+    color: #ffffff;
+}
+.itemCostPanel{
+    flow-children:right;
+}
+.itemCost{
+    width:160px;
+    padding: 5px 10px;
+    height: 30px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+.goldIcon{
+    width:26px;
+    height:26px;
+    margin: 5px 0 0 10px;
+    background-image: url("s2r://panorama/images/hud/reborn/gold_small_psd.vtex");
+    background-size: 100% 100%;
+}
+
+
+.buyItemButton{
+    width:100%;
+    padding: 5px 0 0 0;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#920000ee;
+}
+
+.buyItemButton:hover{
+    background-color:#d80000ee;
+    border: 1px solid #888888;
+}
+
+.itemDescribe{
+    width: 270px;
+    padding: 5px;
+    height: 112px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #ffffff;
+   
+}
+
+.shopButtonBox{
+    width:80px;
+    height:50px;
+    background-color:#920000ee;
+    border: 1px solid #888888;
+}
+
+.shopButtonBg{
+    width:100%;
+    height:60px;
+    background-color:#111111dd;
+    border: 1px solid #111111;
+    margin-top: 30px;
+    
+    flow-children:right;
+}
+.shopButton{
+    width: 160px;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    padding-top:5px;
+    color: #ffffff;
+    background-color:#920000ee;
+    margin: 0 160px;
+}
+
+.shopButton:hover{
+    background-color:#d80000ee;
+    border: 1px solid #888888;
+}
+
+.shopRefresh{
+    
+}
+.shopCancel{
+    
+}

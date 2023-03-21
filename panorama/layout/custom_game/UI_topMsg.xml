@@ -1,0 +1,15 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/top_msg.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/topmsg.js"/>
+    </scripts>
+    <Panel class="UIMsgBox">
+         <Panel class="msgPanel" >
+            <Panel class="msgTap UITopMsg">
+               <Label class="label_1" text="我是一个标签"/>
+            </Panel>
+         </Panel>
+    </Panel>
+</root>
