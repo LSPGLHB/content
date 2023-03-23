@@ -103,8 +103,8 @@ function checkGold(data){
     var playerGold = data.playerGold
     var shopUI = $.GetContextPanel().GetParent().GetParent().FindChild("CustomHudElements");
     var UIShopButton = shopUI.FindChildTraverse("UIShopButton")
-    var shopButton = UIShopButton.FindChildTraverse("shopButton")
-    shopButton.text = playerGold
+    var shopButtonText = UIShopButton.FindChildTraverse("shopButtonText")
+    shopButtonText.text = playerGold
 }
 
 function shopClose(){

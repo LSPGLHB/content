@@ -11,7 +11,11 @@
         <Panel class="UIShopButtonBox">
             <Panel id="UIShopButton" class="UIShopButton" >
                 <Panel class="goldIcon"></Panel>
-                <Label id="shopButton" class="shopButton" />
+                <Label id="shopButtonText" class="shopButtonText" />
+            </Panel>
+            <Panel id="UIPlayerStatusButton" class="UIPlayerStatusButton" >
+                <Panel class="statusIcon"></Panel>
+                <Label id="playerStatusButton" class="playerStatusButton" text="信息板" onactivate="showPlayerStatus()"/>
             </Panel>
         </Panel> 
     </Panel> 

@@ -7,6 +7,7 @@
     height: 60px;
     background-image: url("s2r://panorama/images/hud/reborn/courier_gold_bg_262_psd.vtex");
     background-size: 100%;
+    flow-children:right;
 }
 .UIShopButton{
     width:100px;
@@ -36,14 +37,13 @@
 
 }
 
-.shopButton{
+.shopButtonText{
     margin: 0 5px;
     font-size: 22px;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
     vertical-align: middle;
-
     text-shadow: 0px 1px 0px 2.0 #00000077;
     transition-property:color;
     transition-duration:.1811s;
@@ -55,5 +55,41 @@
     height:26px;
     margin: 5px 0 0 10px;
     background-image: url("s2r://panorama/images/hud/reborn/gold_small_psd.vtex");
+    background-size: 100% 100%;
+}
+.UIPlayerStatusButton{
+    width:120px;
+    height:36px;
+    flow-children:right;
+    margin:12px 0 0 12px;
+    background-size: 100% 100%;
+    brightness:1.0;
+    box-shadow:#00000055 0px 0px 2px 2px;
+    transition-property:background-image;
+    transition-duration:.18s;
+    transition-timing-function:ease-in-out;
+    background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_psd.vtex");
+}
+.UIPlayerStatusButton:hover{
+    background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_inrange_hover_psd.vtex");
+}
+.playerStatusButton{
+    margin: 0 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0px 1px 0px 2.0 #00000077;
+    transition-property:color;
+    transition-duration:.1811s;
+    transition-timing-function:ease-in-out;
+}
+
+.statusIcon{
+    width:32px;
+    height:32px;
+    margin: 2px 0 0 2px;
+    background-image:url("s2r://panorama/images/topbar/armory_icon_on_png.vtex");
     background-size: 100% 100%;
 }
