@@ -1,6 +1,6 @@
 //扫描商人
 GameEvents.Subscribe( "checkShopLUATOJS", checkShopLUATOJS)
-GameEvents.Subscribe( "showPlayerStatusLUATOJS", showPlayerStatusLUATOJS)
+
 function checkShopLUATOJS(data){
     var shopFlag = data.flag
     var playerGold = data.playerGold
@@ -51,27 +51,31 @@ function shopUnknow(){
     $.Msg("==============shopUnknow==========")
 }
 
+function playerStatusActive(){
+    var mainUI = $.GetContextPanel().GetParent().GetParent().FindChild("CustomHudElements")
+    var UIShopButton = mainUI.FindChildTraverse("UIPlayerStatusButton")
+    var buttonStats = UIShopButton.BHasClass("UIPlayerStatusButtonActive")
+    if(buttonStats){
+        UIShopButton.RemoveClass("UIPlayerStatusButtonActive")
+        closePlayerStstus()
+    }else{
+        UIShopButton.AddClass("UIPlayerStatusButtonActive")
+        openPlayerStatus()
+    }
+}
 
-function showPlayerStatus(){
+
+
+
+function openPlayerStatus(){
     $.Msg("==============playerStatusOpen==========")
     GameEvents.SendCustomGameEventToServer( "openPlayerStatusJSTOLUA", {})
-
 }
 
-function showPlayerStatusLUATOJS(data){
-    $.Msg("==============playerStatusGet==========")
-    var heroNameList = data.playerStatusHero
-    var playerAbilityIconList = data.playerStatusAbility
-    var playerStatusItemList = data.playerStatusItem
-    for(i=0;i<8;i++){
-        var heroName = heroIconList[i]
-        for(i=1;i<4;i++){
-            
-        }
-    }
-    //var icon = playerAbilityIconList[0][1]
-   
-   // $.Msg(icon)
+function closePlayerStstus(){
+    $.Msg("==============playerStatusClose==========")
+    GameEvents.SendCustomGameEventToServer( "closePlayerStatusJSTOLUA", {})
 }
+
 
 

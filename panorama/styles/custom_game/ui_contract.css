@@ -1,0 +1,44 @@
+#UIContractPanelBG{
+    vertical-align:bottom;
+    horizontal-align:right;
+    
+}
+.UIContractPanelBG{
+    margin-bottom: 60px;
+    width:263px;
+    height:80px;
+    
+    background-color:#111111dd;
+    flow-children:right;
+}
+
+.UIContractPanelTitleBox{
+    background-color:#11111199;
+    width: 63px;
+    height:120px;
+    padding:6px;
+    
+    flow-children:down;
+}
+.UIContractPanelName{
+    
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+    
+    margin-top:6px;
+    horizontal-align:center;
+}
+
+.UIContractPanelIcon{
+    width:50px;
+    height:50px;
+}
+.UIContractPanelDescribeBox{
+    padding:6px;
+    width:200px;
+    height:100px;
+    font-size: 16px;
+    color: #ffffff;
+    
+}

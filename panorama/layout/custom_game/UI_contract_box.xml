@@ -1,0 +1,22 @@
+
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/ui_contract.css"/>
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/ui_contract.js"/>
+    </scripts>
+
+    <Panel hittest="false">
+       <Panel class="UIContractPanelBG">
+            <Panel class="UIContractPanelTitleBox">
+                <Image class="UIContractPanelIcon" src="file://{images}/custom_game/ability_button/invoker_invoke.png"/>
+                <Label class="UIContractPanelName" text="123"/>
+            </Panel> 
+            <Panel class="UIContractPanelDescribeBox">
+                <Label class="UIContractPanelDescribe" text="123"/>
+            </Panel> 
+       </Panel> 
+    </Panel> 
+
+</root>

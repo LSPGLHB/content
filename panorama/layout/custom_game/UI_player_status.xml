@@ -7,106 +7,107 @@
     </scripts>
     
     <Panel hittest="false">
-        <Panel class="UIPlayerStatusPanelBG">
+        <!--Panel class="UIPlayerStatusPanelBG">
             <Panel class="playerStatusTitle">
                 <Label class="playerStatusTitleTeam" text="天辉"></Label>
                 <Label class="playerStatusTitleContract" text="契约"></Label>
                 <Label class="playerStatusTitleSkill" text="技能"></Label>
                 <Label class="playerStatusTitleEquip" text="装备"></Label>
+                <Image class="UIPlayerStatusPanelOff" src="s2r://panorama/images/icon_x_red_off_png.vtex"/>
             </Panel>
-            <Panel class="playerStatusTeam">
+            <Panel id="playerStatusTeam1" class="playerStatusTeam">
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image id="playerStatusPlayerIcon0" class="playerStatusPlayerIcon" ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image id="playerStatusContract0" class="playerStatusContract" ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image id="playerStatusSkill01" class="playerStatusSkill" ></Image>
+                            <Image id="playerStatusSkill02" class="playerStatusSkill" ></Image>
+                            <Image id="playerStatusSkill03" class="playerStatusSkill" ></Image>
                         </Panel>   
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image id="playerStatusEquip01" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip02" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip03" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip04" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip05" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip06" class="playerStatusEquip" ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image id="playerStatusPlayerIcon1" class="playerStatusPlayerIcon" ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image id="playerStatusContract1"  class="playerStatusContract" ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image id="playerStatusSkill11" class="playerStatusSkill" ></Image>
+                            <Image id="playerStatusSkill12" class="playerStatusSkill" ></Image>
+                            <Image id="playerStatusSkill13" class="playerStatusSkill" ></Image>
                         </Panel>
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image id="playerStatusEquip11" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip12" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip13" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip14" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip15" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip16" class="playerStatusEquip" ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image id="playerStatusPlayerIcon2" class="playerStatusPlayerIcon" ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image id="playerStatusContract2" class="playerStatusContract" ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image id="playerStatusSkill21" class="playerStatusSkill" ></Image>
+                            <Image id="playerStatusSkill22" class="playerStatusSkill" ></Image>
+                            <Image id="playerStatusSkill23" class="playerStatusSkill" ></Image>
                         </Panel>
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image id="playerStatusEquip21" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip22" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip23" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip24" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip25" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip26" class="playerStatusEquip" ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image id="playerStatusPlayerIcon3" class="playerStatusPlayerIcon" ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image id="playerStatusContract3" class="playerStatusContract" ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image id="playerStatusSkill31" class="playerStatusSkill" ></Image>
+                            <Image id="playerStatusSkill32" class="playerStatusSkill" ></Image>
+                            <Image id="playerStatusSkill33" class="playerStatusSkill" ></Image>
                         </Panel>
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image id="playerStatusEquip31" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip32" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip33" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip34" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip35" class="playerStatusEquip" ></Image>
+                            <Image id="playerStatusEquip36" class="playerStatusEquip" ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image class="playerStatusPlayerIcon"  ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image class="playerStatusContract"  ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
                         </Panel>
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
@@ -119,103 +120,104 @@
                 <Label class="playerStatusTitleSkill" text="技能"></Label>
                 <Label class="playerStatusTitleEquip" text="装备"></Label>
             </Panel>
+
             <Panel class="playerStatusTeam">
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image class="playerStatusPlayerIcon"  ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image class="playerStatusContract"  ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
                         </Panel>   
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image class="playerStatusPlayerIcon"  ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image class="playerStatusContract"  ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
                         </Panel>
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image class="playerStatusPlayerIcon"  ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image class="playerStatusContract"  ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
                         </Panel>
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image class="playerStatusPlayerIcon"  ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image class="playerStatusContract"  ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
                         </Panel>
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
                 <Panel class="playerStatusPlayerBox">
-                    <Image class="playerStatusPlayerIcon" src="file://{images}/custom_game/heros_icon/npc_dota_hero_rubick.png"></Image>
+                    <Image class="playerStatusPlayerIcon"  ></Image>
                     <Panel class="playerStatusSEPanel">
-                        <Image class="playerStatusContract" src="file://{images}/custom_game/ability_button/invoker_invoke.png"></Image>
+                        <Image class="playerStatusContract"  ></Image>
                         <Panel class="playerStatusSkillPanel">
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
-                            <Image class="playerStatusSkill" src="file://{images}/custom_game/ability_button/invoker_wex.png"></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
+                            <Image class="playerStatusSkill" ></Image>
                         </Panel>
                         <Panel class="playerStatusEquipPanel">
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
-                            <Image class="playerStatusEquip" src= "file://{images}/custom_game/shop_item/ethereal_blade_lg.png" ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
+                            <Image class="playerStatusEquip"   ></Image>
                         </Panel>
                     </Panel>
                 </Panel>
             </Panel>
-        </Panel>
+        </Panel-->
     </Panel>
 </root>

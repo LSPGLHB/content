@@ -101,8 +101,8 @@ function getShopItemListLUATOJS(data) {
 
 function checkGold(data){
     var playerGold = data.playerGold
-    var shopUI = $.GetContextPanel().GetParent().GetParent().FindChild("CustomHudElements");
-    var UIShopButton = shopUI.FindChildTraverse("UIShopButton")
+    var mainUI = $.GetContextPanel().GetParent().GetParent().FindChild("CustomHudElements");
+    var UIShopButton = mainUI.FindChildTraverse("UIShopButton")
     var shopButtonText = UIShopButton.FindChildTraverse("shopButtonText")
     shopButtonText.text = playerGold
 }

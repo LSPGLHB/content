@@ -70,7 +70,13 @@
     transition-timing-function:ease-in-out;
     background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_psd.vtex");
 }
-.UIPlayerStatusButton:hover{
+.UIPlayerStatusButtonActive{
+    background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_inrange_psd.vtex");
+}
+
+.UIPlayerStatusButton:hover,
+.UIPlayerStatusButtonActive:hover
+{
     background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_inrange_hover_psd.vtex");
 }
 .playerStatusButton{

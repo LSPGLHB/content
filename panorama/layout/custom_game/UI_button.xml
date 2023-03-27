@@ -13,9 +13,9 @@
                 <Panel class="goldIcon"></Panel>
                 <Label id="shopButtonText" class="shopButtonText" />
             </Panel>
-            <Panel id="UIPlayerStatusButton" class="UIPlayerStatusButton" >
+            <Panel id="UIPlayerStatusButton" class="UIPlayerStatusButton" onactivate="playerStatusActive()">
                 <Panel class="statusIcon"></Panel>
-                <Label id="playerStatusButton" class="playerStatusButton" text="信息板" onactivate="showPlayerStatus()"/>
+                <Label id="playerStatusButton" class="playerStatusButton" text="信息板" />
             </Panel>
         </Panel> 
     </Panel> 
