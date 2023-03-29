@@ -1,4 +1,3 @@
-
 <root>
     <styles>
         <include src="file://{resources}/styles/custom_game/ui_contract.css"/>
@@ -10,11 +9,11 @@
     <Panel hittest="false">
        <Panel class="UIContractPanelBG">
             <Panel class="UIContractPanelTitleBox">
-                <Image class="UIContractPanelIcon" src="file://{images}/custom_game/ability_button/invoker_invoke.png"/>
-                <Label class="UIContractPanelName" text="123"/>
+                <Image class="UIContractPanelIcon" src="file://{images}/custom_game/contract_icon/contract.png"/>
+                <Label class="UIContractPanelName" text="未签订"/>
             </Panel> 
             <Panel class="UIContractPanelDescribeBox">
-                <Label class="UIContractPanelDescribe" text="123"/>
+                <Label class="UIContractPanelDescribe" text="无契约"/>
             </Panel> 
        </Panel> 
     </Panel> 

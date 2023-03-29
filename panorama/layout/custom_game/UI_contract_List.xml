@@ -1,0 +1,90 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/ui_contract_list.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/ui_contract_list.js"/>
+    </scripts>
+
+    <Panel hittest="false">
+        <!--Panel id="UIContractListPanelBox" class="UIContractListPanelBox">
+            <Panel class="UIContractListPanelBg"> 
+                <Panel class="UIContractListPanel">                   
+                    <Panel class="contractPanel" >
+                        <Panel class="contractTopBanner">
+                            <Image  class="contract_img" src="file://{images}/custom_game/shop_item/skadi_lg.png" />
+                            <Panel class="contractMsg">
+                                <Label  class="contractName" text="幻影骑士" />
+                            </Panel>
+                        </Panel>
+                        <Label  class="contractDescribe" text="#UIShopButton2" />
+                        <Label class="learnContractButton" text="获得" /> 
+                    </Panel>
+                    <Panel class="contractPanel" >
+                        <Panel class="contractTopBanner">
+                            <Image  class="contract_img" src="file://{images}/custom_game/shop_item/skadi_lg.png" />
+                            <Panel class="contractMsg">
+                                <Label  class="contractName" text="幻影骑士" />
+                                
+                            </Panel>
+                        </Panel>
+                        <Label  class="contractDescribe" text="#UIShopButton2" />
+                        <Label class="learnContractButton" text="获得" /> 
+                    </Panel>
+                    <Panel class="contractPanel" >
+                        <Panel class="contractTopBanner">
+                            <Image  class="contract_img" src="file://{images}/custom_game/shop_item/skadi_lg.png" />
+                            <Panel class="contractMsg">
+                                <Label  class="contractName" text="幻影骑士" />
+                                
+                            </Panel>
+                        </Panel>
+                        <Label  class="contractDescribe" text="#UIShopButton2" />
+                        <Label class="learnContractButton" text="获得" /> 
+                    </Panel>
+                   
+                </Panel>
+                <Panel class="UIContractListPanel">                   
+                    <Panel class="contractPanel" >
+                        <Panel class="contractTopBanner">
+                            <Image  class="contract_img" src="file://{images}/custom_game/shop_item/skadi_lg.png" />
+                            <Panel class="contractMsg">
+                                <Label  class="contractName" text="幻影骑士" />
+                                
+                            </Panel>
+                        </Panel>
+                        <Label  class="contractDescribe" text="#UIShopButton2" />
+                        <Label class="learnContractButton" text="获得" /> 
+                    </Panel>
+                    <Panel class="contractPanel" >
+                        <Panel class="contractTopBanner">
+                            <Image  class="contract_img" src="file://{images}/custom_game/shop_item/skadi_lg.png" />
+                            <Panel class="contractMsg">
+                                <Label  class="contractName" text="幻影骑士" />
+                                
+                            </Panel>
+                        </Panel>
+                        <Label  class="contractDescribe" text="#UIShopButton2" />
+                        <Label class="learnContractButton" text="获得" /> 
+                    </Panel>
+                    <Panel class="contractPanel" >
+                        <Panel class="contractTopBanner">
+                            <Image  class="contract_img" src="file://{images}/custom_game/shop_item/skadi_lg.png" />
+                            <Panel class="contractMsg">
+                                <Label  class="contractName" text="幻影骑士" />
+                                
+                            </Panel>
+                        </Panel>
+                        <Label  class="contractDescribe" text="#UIShopButton2" />
+                        <Label class="learnContractButton" text="获得" /> 
+                    </Panel>
+                   
+                </Panel>
+                
+                <Panel class="contractButtonBg">
+                    <Label  class="contractButton" text="刷新" /><Label  class="contractButton" text="关闭" />
+                </Panel>
+            </Panel>
+        </Panel-->
+    </Panel>
+</root>
