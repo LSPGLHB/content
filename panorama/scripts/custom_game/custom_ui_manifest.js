@@ -2,6 +2,8 @@ var newUI = $.GetContextPanel().GetParent().GetParent().FindChildTraverse("HUDEl
 var centerBlock = newUI.FindChildTraverse("center_block");
 newUI.FindChildTraverse("shop_launcher_block").style.visibility = "collapse"; //隐藏右下部分
 
+//newUI.FindChildTraverse("scoreboard").FindChildTraverse("Background").style.visibility = "collapse";
+
 centerBlock.FindChildTraverse("AghsStatusContainer").style.visibility = "collapse"; //隐藏神杖
 // centerBlock.FindChildTraverse("AbilitiesAndStatBranch").style.visibility = "visible";
 centerBlock.FindChildTraverse("StatBranch").style.visibility = "collapse";//隐藏天赋面板

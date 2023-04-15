@@ -9,11 +9,11 @@
     <Panel hittest="false">
        <Panel class="UIContractPanelBG">
             <Panel class="UIContractPanelTitleBox">
-                <Image class="UIContractPanelIcon" src="file://{images}/custom_game/contract_icon/contract.png"/>
-                <Label class="UIContractPanelName" text="未签订"/>
+                <Image id="UIContractPanelIcon" class="UIContractPanelIcon" src="file://{images}/custom_game/contract_icon/contract.png"/>
+                <Label id="UIContractPanelName" class="UIContractPanelName" text="未签订"/>
             </Panel> 
             <Panel class="UIContractPanelDescribeBox">
-                <Label class="UIContractPanelDescribe" text="无契约"/>
+                <Label id="UIContractPanelDescribe" class="UIContractPanelDescribe" text="无契约"/>
             </Panel> 
        </Panel> 
     </Panel> 

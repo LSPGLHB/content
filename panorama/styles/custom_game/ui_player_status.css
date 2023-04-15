@@ -3,6 +3,7 @@
     horizontal-align:left;
     margin-top:50px;
     margin-left: 100px;
+    z-index: 99;
 }
 .UIPlayerStatusPanelBG{
     width:630px;

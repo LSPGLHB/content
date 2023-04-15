@@ -1,8 +1,14 @@
 GameEvents.Subscribe( "openPlayerStatusLUATOJS", openPlayerStatusLUATOJS)
 
+
 function openPlayerStatusLUATOJS(data){
-    //$.Msg("==============playerStatusGet==========")
+    $.Msg("==============playerStatusGet==========")
     //var mainUI = $.GetContextPanel().GetParent().GetParent().FindChild("CustomHudElements");
+    //var scUI = mainUI.FindChildTraverse("scoreboard")
+
+    //$.CreatePanel('Panel', scUI,"UIPlayerStatusPanelBG");
+    
+
     $("#UIPlayerStatusPanelBG").AddClass("UIPlayerStatusPanelBG")
 
     var heroNameList = data.playerStatusHero
