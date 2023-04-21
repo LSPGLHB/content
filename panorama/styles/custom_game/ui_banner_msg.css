@@ -1,0 +1,45 @@
+#UIBannerMsgBox{
+    width:100%;
+
+}
+
+.UIBannerMsgBox{
+    width:100%;
+    height:100px;
+    margin-top:80px;
+    padding-left:50%;
+}
+
+.UIBannerMsgBG{
+    width:960px;
+    height:100px;
+    margin-left: -480px;
+
+    flow-children:down;
+}
+.stepCountBox{
+    width:960px;
+    height:30px;
+}
+.stepCountValue{
+    width:960px;
+    height:30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 23px;
+    color: #ffffff;
+}
+.timeCountBox{
+    width:960px;
+    height:30px;
+    flow-children:right;
+}
+
+.timeCountValue{
+    width:960px;
+    height:30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 23px;
+    color: #ffffff;
+}

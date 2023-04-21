@@ -1,0 +1,8 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/icon_init.css"/>
+    </styles>
+    <Panel hittest="false">
+        <Image src="file://{images}/custom_game/shop_item/sacrificial_robe.png">
+    </Panel>
+</root>

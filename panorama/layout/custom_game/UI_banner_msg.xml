@@ -1,0 +1,19 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/ui_banner_msg.css"/>
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/ui_banner_msg.js"/>
+    </scripts>
+    
+    <Panel class="UIBannerMsgBox"> 
+        <Panel class="UIBannerMsgBG">
+            <Panel class="stepCountBox">
+                <Label id="stepCountValue" class="stepCountValue"  text="第一轮战斗"/>
+            </Panel>
+            <Panel class="timeCountBox">
+                <Label id="timeCountValue" class="timeCountValue"  text="即将进入下一阶段：20"/>
+            </Panel>
+        </Panel>
+    </Panel>
+</root>
