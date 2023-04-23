@@ -9,10 +9,10 @@
     <Panel class="UIBannerMsgBox"> 
         <Panel class="UIBannerMsgBG">
             <Panel class="stepCountBox">
-                <Label id="stepCountValue" class="stepCountValue"  text="第一轮战斗"/>
+                <Label id="stepCountValue" class="stepCountValue" />
             </Panel>
             <Panel class="timeCountBox">
-                <Label id="timeCountValue" class="timeCountValue"  text="即将进入下一阶段：20"/>
+                <Label id="timeCountValue" class="timeCountValue"/>
             </Panel>
         </Panel>
     </Panel>
