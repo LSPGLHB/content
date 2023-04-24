@@ -17,11 +17,11 @@
 
     flow-children:down;
 }
-.stepCountBox{
+.roundCountBox{
     width:960px;
     height:30px;
 }
-.stepCountValue{
+.roundCountValue{
     width:960px;
     height:30px;
     text-align: center;

@@ -8,8 +8,8 @@
     
     <Panel class="UIBannerMsgBox"> 
         <Panel class="UIBannerMsgBG">
-            <Panel class="stepCountBox">
-                <Label id="stepCountValue" class="stepCountValue" />
+            <Panel class="roundCountBox">
+                <Label id="roundCountValue" class="roundCountValue" />
             </Panel>
             <Panel class="timeCountBox">
                 <Label id="timeCountValue" class="timeCountValue"/>
